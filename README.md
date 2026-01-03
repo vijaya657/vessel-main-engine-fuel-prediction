@@ -15,7 +15,7 @@ The goal is to predict fuel consumption in order to:
 
 ##  Dataset
 
-* **Source:** FuelCast Dataset
+* **Source:** FuelCast Dataset(https://huggingface.co/datasets/krohnedigital/FuelCast)
 * **Records:** 173,982 (reduced to 21,564 after cleaning)
 * **Features:** 93 (final 49 features used)
 * **Vessels:** CPS_Poseidon, OSS_Ceto, CPS_Triton
