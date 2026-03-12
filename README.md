@@ -87,3 +87,34 @@ docker run -d -p 8001:8000 --name fuelcast_api viju4912/fuelcast-api:slim
 * Results align well with vessel physics and operational behavior
 * Demonstrates expertise in Python, machine learning, XGBoost, FastAPI, and Docker
 
+json file
+{
+"vessel_name": "CPS_Triton",
+"Consumer_MainEnginePort_RotationSpeed": 78.5,
+"Consumer_MainEnginePort_ShaftPower": 5200,
+"Consumer_MainEngineStarboard_RotationSpeed": 77.9,
+"Consumer_MainEngineStarboard_ShaftPower": 5150,
+"Environment_SeaFloorDepth": 3200,
+"Propeller_Port_RotationSpeed": 79.0,
+"Propeller_Port_ShaftPower": 5100,
+"Propeller_Port_ShaftTorque": 410,
+"Propeller_Starboard_RotationSpeed": 78.8,
+"Propeller_Starboard_ShaftPower": 5050,
+"Propeller_Starboard_ShaftTorque": 405,
+"Propeller_Total_ShaftPower": 10150,
+"Ship_AirTemperature": 28.3,
+"Ship_AnemometerWindDirection": 210,
+"Ship_AnemometerWindSpeed": 6.2,
+"Ship_Bearing": 185,
+"Ship_DraftAft": 8.1,
+"Ship_DraftFore": 7.9,
+"Ship_Heading": 183,
+"Ship_SpeedOverGround": 13.2,
+"Ship_SpeedThroughWater": 12.9,
+"Weather_WindSpeed10M": 6.5,
+"Weather_WaveHeight": 1.2,
+"Weather_SwellWaveHeight": 0.8,
+"Weather_Temperature2M": 27.3,
+"Fuel_roll_mean_5": 0.185,
+"Fuel_roll_std_5": 0.012
+}
